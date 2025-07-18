@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="up-arrow">
+        <img src="up-arrow.png">
+    </div>
+    <div class="side-bar" id="side-bar">
+        <div class="logo">
+            <h1>VISAL.</h1>
+        </div>
+        <div class="mode">
+            <button>WEB MODE</button>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <div class="menu-item" id="link-home" onclick="scrollToSection('home')">Home</div>
+        <div class="menu-item" id="link-about" onclick="scrollToSection('about')">About Me</div>
+        <div class="menu-item" id="link-project" onclick="scrollToSection('project')">Project</div>
+        <div class="menu-item" id="link-education" onclick="scrollToSection('education')">Education</div>
+    </div>
+    <div class="section" id="home">
+        <div class="text-welcome">
+            <h1>WELCOME <br> TO VISAL'S WORLD!</h1>
+            <h2>Web Developer and Desiger</h2>
+        </div>
+    </div>
+    <div class="section" id="about">
+        <div class="abme-text">
+            <h1>ABOUT ME</h1>
+            <h2>Always learning, Always building.</h2>
+        </div>
+        <div class="abme-detail">
+            <div class="abme-paragraph">
+                <h1>Hello <br> I'm VISAL <br> A freshman at SETEC <br> Institute</h1>
+                <h2>
+                    I'm an aspiring full-stack developer with hands-on experience in front-end technologies <br>
+                    and a passion for solving real-world problems through code. I'm seeking opportunities in fast-paced
+                    creative teams where I can continue learning and contribute to meaningful projects.
+                </h2>
+                <div class="social">
+                    <button>Resume</button>
+                    <img onclick="gotoMedia('facebook')" src="facebook-app-symbol.png">
+                    <img onclick="gotoMedia('telegram')" src="telegram.png">
+                    <img onclick="gotoMedia('tiktok')" src="tik-tok.png">
+                    <img onclick="gotoMedia('github')" src="github.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="project">
+        <div class="pro-text">
+            <h3>Project</h3>
+            <h1>WED PROJECTS</h1>
+            <h2>Front - End HTML, CSS, JavaScript</h2>
+        </div>
+        <div class="front-end-project">
+            <div class="each-project">
+                <div class="profile-img">
+                    <div class="profile">
+                        <img src="highschool.png" alt="profile">
+                    </div>
+                    <div class="web-image">
+                        <img src="highschool.png" alt="image">
+                    </div>
+                </div>
+                <div class="pro-name">
+                    <div class="pro-name1">
+                        <h2>HTML, CSS, JavaScript</h2>
+                        <h1>YouTube</h1>
+                    </div>
+                    <div class="pro-name2">
+                        <p>Time</p>
+                        <p>O4</p>
+                    </div>
+                </div>
+                <div class="pro-link">
+                    <a href="">YouTube.com</a>
+                    <a href="">Sources Code</a>
+                </div>
+            </div>
+            <div class="each-project">
+                <div class="profile-img">
+                    <div class="profile">
+                        <img src="highschool.png" alt="profile">
+                    </div>
+                    <div class="web-image">
+                        <img src="highschool.png" alt="image">
+                    </div>
+                </div>
+                <div class="pro-name">
+                    <div class="pro-name1">
+                        <h2>HTML, CSS, JavaScript</h2>
+                        <h1>Facebook</h1>
+                    </div>
+                    <div class="pro-name2">
+                        <p>Time</p>
+                        <p>O4</p>
+                    </div>
+                </div>
+                <div class="pro-link">
+                    <a href="">Facebook.com</a>
+                    <a href="">Sources Code</a>
+                </div>
+            </div>
+            <div class="each-project">
+                <div class="profile-img">
+                    <div class="profile">
+                        <img src="highschool.png" alt="profile">
+                    </div>
+                    <div class="web-image">
+                        <img src="highschool.png" alt="image">
+                    </div>
+                </div> 
+                <div class="pro-name">
+                    <div class="pro-name1">
+                        <h2>HTML, CSS, JavaScript</h2>
+                        <h1>TikTok</h1>
+                    </div>
+                    <div class="pro-name2">
+                        <p>Time</p>
+                        <p>O4</p>
+                    </div>
+                </div>
+                <div class="pro-link">
+                    <a href="">TikTok.com</a>
+                    <a href="">Sources Code</a>
+                </div>
+            </div>
+        </div>
+        <div class="adobe">
+            <h3>Adobe</h3>
+            <h2>Design and <br> Learn from other designs.</h2>
+            <div class="photoshop">
+                <div class="photoshop-one">
+                    <img src="ImageExample.png">
+                    <div class="for-hover">
+                        <button>View</button>
+                    </div>
+                    <div class="adobe-name">
+                        <img src="ps.png">
+                        <h3>Adobe Photoshop</h3>
+                    </div>
+                </div>
+                <div class="photoshop-one">
+                    <img src="ImageExample.png">
+                    <div class="for-hover">
+                        <button>View</button>
+                    </div>
+                    <div class="adobe-name">
+                        <img src="ps.png">
+                        <h3>Adobe Photoshop</h3>
+                    </div>
+                </div>
+                <div class="photoshop-one">
+                    <img src="ImageExample.png">
+                    <div class="for-hover">
+                        <button>View</button>
+                    </div>
+                    <div class="adobe-name">
+                        <img src="ps.png">
+                        <h3>Adobe Photoshop</h3>
+                    </div>
+                </div>
+                <div class="photoshop-one">
+                    <img src="ImageExample.png">
+                    <div class="for-hover">
+                        <button>View</button>
+                    </div>
+                    <div class="adobe-name">
+                        <img src="illustrator.png">
+                        <h3>Adobe illustrator</h3>
+                    </div>
+                </div>
+                <div class="photoshop-one">
+                    <img src="ImageExample.png">
+                    <div class="for-hover">
+                        <button>View</button>
+                    </div>
+                    <div class="adobe-name">
+                        <img src="illustrator.png">
+                        <h3>Adobe illustrator</h3>
+                    </div>
+                </div>
+                <div class="photoshop-one">
+                    <img src="ImageExample.png">
+                    <div class="for-hover">
+                        <button>View</button>
+                    </div>
+                    <div class="adobe-name">
+                        <img src="illustrator.png">
+                        <h3>Adobe illustrator</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="education">
+        <h3>Education</h3>
+        <h2>Started 2011 - Present</h2>
+        <div class="educ-card">
+            <div class="educ-card-one">
+                <div class="educ-card-img">
+                    <img src="ImageExample.png">
+                    <div class="educ-card-button">
+                        <button>Certificate</button>
+                    </div>
+                </div>
+                <div class="educ-card-detail">
+                    <h4 class="h-one">Hun Sen Savy Antor high school</h4>
+                    <h4 class="h-two">Years Attended 2020-2023</h4>
+                    <h4 class="h-three"><strong>Program</strong><span>Bac II Certificate</span></h4>
+                    <h4 class="h-four"><strong>Achievement</strong><span>National Grade 12 Examination</span></h4>
+                </div>
+            </div>
+            <div class="educ-card-one">
+                <div class="educ-card-img">
+                    <img src="ImageExample.png">
+                    <div class="educ-card-button">
+                        <button>Certificate</button>
+                    </div>
+                </div>
+                <div class="educ-card-detail">
+                    <h4 class="h-one">SETEC Institute</h4>
+                    <h4 class="h-two">Years Attended 2024-Present</h4>
+                    <h4 class="h-three"><strong>Program</strong><span>Bachelor of MIS</span></h4>
+                    <h4 class="h-four"><strong>GPA</strong><span>Not Availbale Yet!</span></h4>
+                </div>
+            </div>
+            <div class="educ-card-one">
+                <div class="educ-card-img">
+                    <img src="ImageExample.png">
+                    <div class="educ-card-button">
+                        <button>Certificate</button>
+                    </div>
+                </div>
+                <div class="educ-card-detail">
+                    <h4 class="h-one">CAM ASEAN</h4>
+                    <h4 class="h-two">Years Attended 2023-Present</h4>
+                    <h4 class="h-three"><strong>Program</strong><span>General English Program</span></h4>
+                    <h4 class="h-four"><strong>GEP</strong><span>10 - Present</span></h4>
+                </div>
+            </div>
+            <div class="educ-card-one">
+                <div class="educ-card-img">
+                    <img src="ImageExample.png">
+                    <div class="educ-card-button">
+                        <button>Certificate</button>
+                    </div>
+                </div>
+                <div class="educ-card-detail">
+                    <h4 class="h-one">Hun Sen Savy Antor high school</h4>
+                    <h4 class="h-two">Years Attended 2020-2023</h4>
+                    <h4 class="h-three"><strong>Program</strong><span>Bac II Certificate</span></h4>
+                    <h4 class="h-four"><strong>Achievement</strong><span>National Grade 12 Examination</span></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="footer">
+        <div class="s-footer">
+            <div class="name-p">
+                <h1>VISAL.</h1>
+            </div>
+            <div class="connect">
+                <h4>Connect:</h4>
+                <a href="">Facbook</a>
+                <a href="">Telegram</a>
+                <a href="">Messenger</a>
+                <a href="">Gmail</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
